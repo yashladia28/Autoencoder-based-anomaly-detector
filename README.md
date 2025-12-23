@@ -33,10 +33,9 @@ Project Structure
 Plaintext
 
 ## Project Structure
-
-
-anomaly_detector/
 ```
+anomaly_detector/
+
 ├── app.py                 # FastAPI application entry point
 ├── data_generator.py      # Script for generating synthetic transaction datasets
 ├── preprocess.py          # Data cleaning and feature engineering logic
@@ -129,5 +128,6 @@ Author: Yash Ladia
 
 
 Engineering student focused on Machine Learning, Computer Vision, and Scalable ML Systems.
+
 
 
