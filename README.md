@@ -36,6 +36,7 @@ Plaintext
 
 
 anomaly_detector/
+```
 ├── app.py                 # FastAPI application entry point
 ├── data_generator.py      # Script for generating synthetic transaction datasets
 ├── preprocess.py          # Data cleaning and feature engineering logic
@@ -45,7 +46,7 @@ anomaly_detector/
 ├── autoencoder.keras      # Serialized model weights
 ├── scaler.joblib          # Persisted MinMaxScaler state
 └── threshold.npy          # Calculated anomaly threshold value
-
+```
 
 Feature Engineering
 
@@ -128,4 +129,5 @@ Author: Yash Ladia
 
 
 Engineering student focused on Machine Learning, Computer Vision, and Scalable ML Systems.
+
 
