@@ -33,15 +33,15 @@ Project Structure
 Plaintext
 
 anomaly_detector/
-├── app.py                 # FastAPI application entry point
-├── data_generator.py      # Script for generating synthetic transaction datasets
-├── preprocess.py          # Data cleaning and feature engineering logic
-├── train.py               # Training pipeline for the Autoencoder
-├── infer.py               # Core inference and scoring logic
-├── rules.py               # Deterministic rule-based scoring components
-├── autoencoder.keras      # Serialized model weights
-├── scaler.joblib          # Persisted MinMaxScaler state
-└── threshold.npy          # Calculated anomaly threshold value
+    app.py                 # FastAPI application entry point
+    data_generator.py      # Script for generating synthetic transaction datasets
+    preprocess.py          # Data cleaning and feature engineering logic
+    train.py               # Training pipeline for the Autoencoder
+    infer.py               # Core inference and scoring logic
+    rules.py               # Deterministic rule-based scoring components
+    autoencoder.keras      # Serialized model weights
+    scaler.joblib          # Persisted MinMaxScaler state
+    threshold.npy          # Calculated anomaly threshold value
 
 Feature Engineering
 
@@ -121,5 +121,6 @@ Future Roadmap
     Containerization via Docker for cloud-native deployment.
 
 Author: Yash Ladia
+
 
 Engineering student focused on Machine Learning, Computer Vision, and Scalable ML Systems.
