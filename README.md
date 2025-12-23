@@ -29,13 +29,9 @@ The pipeline is structured to ensure a clean separation between data processing,
 
     Decision Logic: Anomaly status is determined by comparing the Mean Squared Error (MSE) against a predefined 95th percentile threshold.
 
-Project Structure
-Plaintext
-
 ## Project Structure
 ```
 anomaly_detector/
-
 ├── app.py                 # FastAPI application entry point
 ├── data_generator.py      # Script for generating synthetic transaction datasets
 ├── preprocess.py          # Data cleaning and feature engineering logic
@@ -128,6 +124,7 @@ Author: Yash Ladia
 
 
 Engineering student focused on Machine Learning, Computer Vision, and Scalable ML Systems.
+
 
 
 
